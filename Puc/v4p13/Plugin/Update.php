@@ -17,7 +17,7 @@ if ( !class_exists('Puc_v4p13_Plugin_Update', false) ):
 		public $requires_php = false;
 		public $icons = array();
 		public $filename; //Plugin filename relative to the plugins directory.
-		public $autoupdate;
+		public $autoupdate = false;
 
 		protected static $extraFields = array(
 			'id', 'homepage', 'tested', 'requires_php', 'upgrade_notice', 'icons', 'filename', 'autoupdate',
